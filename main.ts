@@ -19,3 +19,14 @@ console.log(data.toString()); // 출력해봄
 console.log("Program has ended"); // 구분용 String Line
 */
 
+/* 비동기 처리 실습
+var fs = require('fs');
+
+fs.readFile('input.txt', function (err, data){
+    if (err) return console.error(err);
+    console.log(data.toString());
+});
+
+console.log("Program has ended");
+*/
+
